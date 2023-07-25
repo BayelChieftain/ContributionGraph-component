@@ -1,0 +1,47 @@
+.container {
+    border: rgb(3, 3, 3) solid 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 30px;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(50, 15px); /* 7 столбцов с квадратиками шириной 15px */
+    grid-template-rows: repeat(7, 15px); /* 50 строк с квадратиками высотой 15px */
+    gap: 2px; /* Расстояние между квадратиками */
+   border: rgb(3, 3, 3) solid 5px;
+   
+   text-align: center;
+  
+}
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: #ebedf0; /* Цвет для неактивных дней */
+    border: 1px solid #fff; /* Белая граница для квадратов */
+  }
+.Ablock {
+    width: 15px;
+    height: 15px;
+    display: flex;
+}
+.A1 {
+    background: #EDEDED;
+}
+.A2 {
+    background: #ACD5F2;
+
+}
+.A3 {
+    background: #7FA8C9;
+
+}
+.A4 {
+    background: #527BA0;
+
+}
+.Ablock .A5 {
+    background: #254E77;
+
+}
